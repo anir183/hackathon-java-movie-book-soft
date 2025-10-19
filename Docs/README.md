@@ -14,11 +14,12 @@ language."
 ## Other Details
 * Time Provided: 7 days
 * Tech Stack: JAVA and stock libraries
+* Result: 1st Prize
 
 ## Caveats
 * Uses locally stored .txt files for data storing with a hacky custom format
 
-# Quick Run
+## Quick Run
 Go to the root folder containing Main.java and run the following commands in the
 terminal  
 
@@ -26,6 +27,5 @@ terminal
 javac Main.java
 java Main
 ```
-  
   
 Optionally, build the files in a separate directory like `./Out/` or `./Bin/`
