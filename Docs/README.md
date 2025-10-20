@@ -72,6 +72,7 @@ language."
 
 ## Caveats
 * Uses locally stored .txt files for data storing with a hacky custom format
+* Pretty sure the cancellation button on the history page does not work
 
 ## Quick Run
 Go to the root folder containing the Src/ folder and run the following commands
