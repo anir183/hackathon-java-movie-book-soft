@@ -4,7 +4,60 @@ libraries like JSwing and JavaAWT that comes with a stock JAVA install. Stores
 data in the filesystem within .txt files.   
 
 ## Preview
-TODO: add pictures
+<p align="center">
+  <img src="./Assets/1.png"/>
+</p>  
+
+<p align="center">
+  <img src="./Assets/2.png"/>
+</p>
+
+## Pictures with Labels
+<details>
+<summary>Home Screen</summary>
+<img src="./Assets/1.png"/>
+</details>  
+  
+<details>
+<summary>Movie List Screen</summary>
+<img src="./Assets/2.png"/>
+</details>  
+  
+<details>
+<summary>Movie Details Select</summary>
+<img src="./Assets/3.png"/>
+</details>  
+  
+<details>
+<summary>Login or Registration</summary>
+<img src="./Assets/4.png"/>
+</details>  
+  
+<details>
+<summary>Seat Matrix</summary>
+<img src="./Assets/5.png"/>
+</details>  
+  
+<details>
+<summary>Selecting Seats</summary>
+<img src="./Assets/6.png"/>
+</details>  
+  
+<details>
+<summary>Bill Summary</summary>
+<img src="./Assets/7.png"/>
+</details>  
+  
+<details>
+<summary>Booking Confirmation</summary>
+<img src="./Assets/8.png"/>
+</details>  
+  
+<details>
+<summary>Booking History</summary>
+<img src="./Assets/9.png"/>
+</details>  
+  
 
 ## Problem Statement
 "Build a simple TUI or GUI Movie Booking Software in either Python or JAVA using
@@ -15,17 +68,23 @@ language."
 * Time Provided: 7 days
 * Tech Stack: JAVA and stock libraries
 * Result: 1st Prize
+* Last Tested On: Wayland-XWayland-ArchLinux with JDK-25-temurin
 
 ## Caveats
 * Uses locally stored .txt files for data storing with a hacky custom format
 
 ## Quick Run
-Go to the root folder containing Main.java and run the following commands in the
-terminal  
+Go to the root folder containing the Src/ folder and run the following commands
+in the terminal  
+  
+Using bash for this example, translate to other shells:
+`NOTE`: You need to copy the sample data and assets to the compiled bin folder
 
 ```bash
-javac Main.java
+mkdir Out/
+javac -d Out/ @sources.txt
+cp -R SampleData/ Out/Data
+cp -R Src/Assets/ Out/Assets
+cd Out/
 java Main
 ```
-  
-Optionally, build the files in a separate directory like `./Out/` or `./Bin/`
